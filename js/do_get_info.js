@@ -33,7 +33,7 @@ function stepSetSinhVien() {
             return false;
         }
     }
-    var phone = $.trim($("input[name='txtPhone']").val());
+    var phone = $.trim($("input[name='txtPhone[]']").val());
     if (phone == '') {
         alert("VUI LÒNG NHẬP SỐ ĐIỆN THOẠI");
         return false;
